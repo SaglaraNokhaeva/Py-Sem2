@@ -18,14 +18,14 @@
 # *Пример:*
 # - Для n = 6: {1: 4, 2: 7, 3: 10, 4: 13, 5: 16, 6: 19}
 
-n=int(input("Введите число: "))
-cl=[]
-for i in range(n):
+# n=int(input("Введите число: "))
+# cl=[]
+# for i in range(n):
 
-    cl.append(3*(i+1)+1)
-print(cl)
-for i in range(len(cl)):
-    print(f"{i+1}: {cl[i]}",end=",  ")
+#     cl.append(3*(i+1)+1)
+# print(cl)
+# for i in range(len(cl)):
+#     print(f"{i+1}: {cl[i]}",end=",  ")
 
 
 
@@ -38,3 +38,5 @@ for i in range(len(cl)):
 
 str1=input("Введите первую строку: ")
 str2=input("Введите вторую строку: ")
+num=str1.count(str2)
+print(num)
