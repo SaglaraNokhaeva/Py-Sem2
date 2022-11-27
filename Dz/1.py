@@ -8,7 +8,6 @@ a = input("Введите вещественное число: ")
 summa=0
 new_a=a.translate({ord(i): None for i in '-'})
 a=new_a.translate({ord(i): None for i in '.'})
-print(a)
 
 for i in range(len(a)):
     b=int(a[i])
