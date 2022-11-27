@@ -22,3 +22,7 @@
 # Timur forever young
 # Sample Output 2:
 # 3
+
+a="Timur forever young"
+print(a.split(" "))
+print(len(a.split(" ")))
