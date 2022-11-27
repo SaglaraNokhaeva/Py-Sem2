@@ -23,6 +23,13 @@
 # Sample Output 2:
 # 3
 
-a="Timur forever young"
-print(a.split(" "))
-print(len(a.split(" ")))
+# a="Timur     forever young"
+# print(a.split())
+# print(len(a.split()))
+
+# С клавиатуры вводятся две буквы (в одну строку через пробел)
+# вывести след.строку: "Коды: буква1=код буквы1, буква2=код буквы2"
+
+a,b=input().split()
+print("Коды: "+a+" = "+str(ord(a))+", "+b+" = "+str(ord(b)))
+
