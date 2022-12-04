@@ -13,3 +13,14 @@ for i in range(len(a)):
     b=int(a[i])
     summa+=b
 print(summa)
+
+# Решение от преподавателя
+
+# n = float(input('Введите число - '))
+# while n % 1 > 0:
+#     n *= 10
+# summ = 0
+# while n > 0:
+#     summ += n % 10
+#     n //= 10
+# print(int(summ))
